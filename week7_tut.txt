@@ -1,0 +1,92 @@
+    1  sudo spctl --master-disable
+    2  perl -pi -e 's/\xFE\xCD\x06\x0F\x1F\x44\x00\x00\x55/\xFE\xCD\x06\x0F\x1F\x44\x00\x00\xC3/g' /Applications/DaVinci\ Resolve/DaVinci\ Resolve.app/Contents/MacOS/Resolve
+    3  sudo spctl --master-disable
+    4  sudo spctl --master-disable
+    5  /Volumes/Mac版AE\ 2018/Install.app/Contents/MacOS/Install ; exit;
+    6  /Volumes/Mac版AE\ 2019/Install.app/Contents/MacOS/Install ; exit;
+    7  sudo spctl --master-disable
+    8  /Volumes/Maxon\ Cinema\ 4D\ Studio/新手必读/Icon ; exit;
+    9  sudo spctl --master-disable
+   10  sudo spctl --master-disable
+   11  sudo spctl --master-disable
+   12  sudo spctl --master-disable
+   13  sudo xattr -r -d com.apple.quarantine  
+   14  sudo xattr -r -d com.apple.quarantine /Volumes/My\ Passport/MAC/Adobe_Premiere_Pro_2021_15.0.0.41_SP_20210320.dmg 
+   15  sudo xa
+   16  sudo xattr -r -d com.apple.quarantine /Volumes/My\ Passport/MAC/Adobe_Media_Encoder_2021_15.0.0.37_SP_20210320.dmg 
+   17  sudo xattr -r -d com.apple.quarantine /Volumes/My\ Passport/MAC/Adobe_After_Effects_2021_18.0.0.39_ACR13.2_SP_20210320.dmg 
+   18  /Volumes/RealGuitar\ 5.0.2/Uninstall\ RealGuitar ; exit;
+   19  /Volumes/Mac版AE\ 2018/Install.app/Contents/MacOS/Install ; exit;
+   20  /Volumes/Mac版AE\ 2019/Install.app/Contents/MacOS/Install ; exit;
+   21  /Volumes/R19.024\ Installer\ Web\ M/MAXON-Start.app/Contents/MacOS/MAXON-Start ; exit;
+   22  /Volumes/R19.024\ Installer\ Web\ M/MAXON-Start.app/Contents/MacOS/MAXON-Start ; exit;
+   23  /Volumes/R19.024\ Installer\ Web\ M/MAXON-Start.app/Contents/MacOS/MAXON-Start ; exit;
+   24  $ sudo nano /private/etc/hosts
+   25  sudo xattr -rd com.apple.quarantine /Applications/西部世界VPN.app
+   26  sudo xattr -rd com.apple.quarantine /Applications/西部世界VPN.app
+   27  sudo xattr -rd com.apple.quarantine /Applications/西部世界VPN.app
+   28  /Applications/Audiokinetic/Wwise\ 2021.1.7.7796/Cube/cube/CubeMacProfile ; exit;
+   29  /Applications/Audiokinetic/Wwise\ 2021.1.7.7796/Wwise.app/Contents/SharedSupport/Wwise2019x64/Wwise2019/wine64-preloader ; exit;
+   30  sudo spctl –master-disable
+   31  sudo xattr -r -d com.apple.quarantine /Users/yxx/Downloads/Adobe_Media_Encoder_2021_15.0.0.37_SP_20210320.dmg 
+   32  ygl20001031
+   33  ygl20001031
+   34  sudo xattr -r -d com.apple.quarantine /Users/yxx/Downloads/Adobe_Media_Encoder_2021_15.0.0.37_SP_20210320.dmg 
+   35  git
+   36  git config -- global user.name'GulongYang'
+   37  git config --global user.name 'GulongYang'
+   38  git config --global user.email yanggulong1031@gmail.com
+   39  git config --list
+   40  ssh-keygen
+   41  cd ~/.ssh/
+   42  ls
+   43  cat id_rsa.pub
+   44  cd ~
+   45  cd Des
+   46  cd ~
+   47  mkdir week7
+   48  cd week7
+   49  echo "# week7tut" >> README.md
+   50  git init
+   51  git add README.md
+   52  git commit -m "first commit"
+   53  git branch -M main
+   54  git remote add origin https://github.com/GulongYang/week7tut.git
+   55  ls
+   56  ls -al
+   57  rm -rf .git
+   58  echo "# week7tut" >> README.md
+   59  git init
+   60  git add README.md
+   61  git commit -m "first commit"
+   62  git branch -M main
+   63  git remote add origin git@github.com:GulongYang/week7tut.git
+   64  git push -u origin main
+   65  git add 1.r
+   66  ls
+   67  git commit -m 'first commit'
+   68  git push
+   69  git status
+   70  add README.md
+   71  add README.md 
+   72  git add README.md
+   73  git commit -m 'new file'
+   74  git push
+   75  git add 1.r
+   76  git commit -m 'using head function'
+   77  git add 1.r
+   78  git commit -m 'using head function'
+   79  git add 1.r
+   80  git commit -m 'commit2'
+   81  git push
+   82  git branch new_feat
+   83  git checkout new_feat
+   84  git 2.4
+   85  git commit -m 'adding a new file in a new branch'
+   86  git 2.4.r
+   87  git 2.4.R
+   88  git add 2.4.R
+   89  git commit -m 'adding a new file in a new branch'
+   90  git push -u origin new_feat
+   91  git checkout main
+   92  history >> week7_tut.txt
